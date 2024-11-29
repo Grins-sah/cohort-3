@@ -1,0 +1,14 @@
+{
+  "name": "week14.5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": " tsc -b",
+    "dev":" tsc -b &&  node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

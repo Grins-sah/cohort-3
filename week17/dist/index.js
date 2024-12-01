@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const pg_1 = require("pg");
-const pgClient = new pg_1.Client("postgresql://alpha_owner:2wHBpd5WSvFT@ep-billowing-lake-a5ho8cec.us-east-2.aws.neon.tech/alpha?sslmode=require");
+const pgClient = new pg_1.Client();
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
         yield pgClient.connect();

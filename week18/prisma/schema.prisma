@@ -28,5 +28,6 @@ model Todo{
   description   String 
   done          Boolean
   user          User @relation(fields: [userId], references: [id])
+  extra       String
 }
 

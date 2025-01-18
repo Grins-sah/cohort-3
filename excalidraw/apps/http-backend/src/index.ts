@@ -36,6 +36,9 @@ app.post('/signup',async (req:RequestUser,res:Response):Promise<void>=>{
 
     
 })
+app.post('/signin',(req:RequestUser,res:Response):void =>{
+    
+})
 app.listen(3000);
 
 
